@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.header {
+  background-color: #292929;
+  display: flex;
+  height: 100px;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  background-color: #292929;
+  color: white;
+  border: solid transparent;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+  flex-wrap: wrap;
+}
+
+.button:hover {
+  border-radius: 50px;
+  background-color: rgb(201, 28, 28);
+  color: black;
+}
+
+.titulo {
+  font: arial;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.subTitulo {
+  font: arial;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.titleExtra {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: larger;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.info {
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 300px;
+  height: 200px;
+}
+
+.gridContainer {
+  display: grid;
+  min-height: 100vh;
+  gap: 10px 15px;
+  grid-template-columns: 70% 30%;
+}
+
+.principal {
+  display: grid;
+  min-height: 100vh;
+  gap: 10px 15px;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+}
+
+.categoria {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  border: solid 2px transparent;
+  max-width: auto;
+  transition: 0.5s;
+}
+
+.categoria:hover {
+  padding: 0;
+  border-radius: 10px;
+  border-color: black;
+  background-color: black;
+  color: gray;
+}
+
+.card {
+  border-radius: 20px;
+  width: 100%;
+  height: 250px;
+  max-height: 250px;
+}
+
+.extra {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #292929;
+  flex-wrap: wrap;
+}
+
+.categoriaExtra {
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: solid 2px transparent;
+  transition: 0.5s;
+}
+
+.categoriaExtra:hover {
+  padding: 0;
+  border-radius: 5px;
+  border-color: white;
+  background-color: gray;
+  color: black;
+}
+
+.cardExtra {
+  border-radius: 10px;
+  margin-left: 35px;
+  margin-top: 10px;
+  width: 80%;
+  height: 250px;
+}
+
+.infoExtra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #292929;
+  display: flex;
+  height: 100px;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.anchor {
+  color: white;
+  margin-right: 20px;
+  transition: 0.5s;
+  border: solid 2px transparent;
+  text-decoration: none;
+}
+
+.anchor:hover {
+  border-radius: 20px;
+  background-color: black;
+  color: gray;
+}
